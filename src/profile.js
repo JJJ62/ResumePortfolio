@@ -9,18 +9,18 @@ const animation = {
 };
 // Change your display name on tha landing display
 const header = {
-  name: "a Human",
+  name: "Jawad Alamgir",
 };
 const background = {
   // Options: Snow or Particle
-  type: "Snow",
+  type: "Particle",
 };
 // Write a para about yourself here
 // To update your image, go to './styles/images.css'
 const section2title = "About Me";
 const about = {
   paragraph:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. ",
+    " Excellent content specialist and team player with extensive understanding of development tools and programming languages. Individual with a strong eye for detail who is presently a junior at Oregon State University majoring in Computer Science with a concentration on video game creation and simulation, as well as expertise with OpenGL and GLSL.",
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
@@ -36,10 +36,6 @@ const skillsBar = [
   {
     name: "Javascript",
     faClass: "fab fa-js",
-  },
-  {
-    name: "SASS",
-    faClass: "fab fa-sass",
   },
   {
     name: "Node",
