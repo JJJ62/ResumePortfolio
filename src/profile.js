@@ -70,9 +70,9 @@ const projects = [
   {
     // Add image in './styles/images.css' in #project1
     id: "project1",
-    name: "Project 1",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Shaders",
+    skills: ["OpenGL, GLSL, c++, c"],
+    url: "https://github.com/JJJ62/CS457",
   },
   {
     // Add image in './styles/images.css' in #project2
