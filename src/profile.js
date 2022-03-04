@@ -77,16 +77,16 @@ const projects = [
   {
     // Add image in './styles/images.css' in #project2
     id: "project2",
-    name: "Project 2",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Maze Game",
+    skills: ["c"],
+    url: "https://github.com/JJJ62/Maze-Game-261-Final-group-",
   },
   {
     // Add image in './styles/images.css' in #project3
     id: "project3",
-    name: "Project 3",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Gess Game",
+    skills: ["Python"],
+    url: "https://github.com/JJJ62/Gess-Game-162-portfolio",
   },
   {
     // Add image in './styles/images.css' in #project4
