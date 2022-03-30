@@ -130,7 +130,7 @@ const projects = [
 const section5Title = "Get in Touch";
 const contact = {
   pitch:
-    "DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.",
+    "DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL. THE DOWNLOAD OPTION AT THE BOTTOM WILL PROVIDE YOU WITH MY RESUME.",
   copyright: "Jawad Alamgir",
   contactUrl: "",
 };
