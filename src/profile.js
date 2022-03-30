@@ -46,21 +46,25 @@ const skillsBar = [
     faClass: "fab fa-python",
   },
   {
-    name: "Java",
-    faClass: "fab fa-java",
-  },
-  {
-    name: "PHP",
-    faClass: "fab fa-php",
-  },
-  {
     name: "Database",
     faClass: "fas fa-database",
   },
   {
-    name: "AWS",
-    faClass: "fab fa-aws",
+    name: "Google Cloud Platform"
   },
+  {
+    name: "OpenGL"
+  },
+  {
+    name: "OpenGL Shading Language"
+  },
+  {
+    name: "C++"
+  },
+  {
+    name: "C"
+  },
+  
 ];
 // Edit your projects, its name, your skills used to make it, and the url.
 // You can omit freely anything if you dont have it
@@ -70,87 +74,71 @@ const projects = [
   {
     // Add image in './styles/images.css' in #project1
     id: "project1",
-    name: "Shaders",
-    skills: ["OpenGL, GLSL, c++, c"],
-    url: "https://github.com/JJJ62/CS457",
+    name: "Animated Bézier Surface, Computer Graphics",
+    skills: ["OpenGL, GLSL, C++, C"],
+    url: "https://media.oregonstate.edu/media/t/1_y3vbr0ej",
   },
   {
     // Add image in './styles/images.css' in #project2
     id: "project2",
-    name: "Maze Game",
-    skills: ["c"],
-    url: "https://github.com/JJJ62/Maze-Game-261-Final-group-",
+    name: "Disintegration Shader, Computer Graphics Shaders",
+    skills: ["OpenGL, GLSL, C++, C"],
+    url: "https://media.oregonstate.edu/media/t/1_jo05owxp",
   },
   {
     // Add image in './styles/images.css' in #project3
     id: "project3",
-    name: "Gess Game",
-    skills: ["Python"],
-    url: "https://github.com/JJJ62/Gess-Game-162-portfolio",
+    name: "REST API Google Cloud Platform, Cloud Application Development",
+    skills: ["GCP, JavaScript, Node.Js, Google DataStore"],
+    url: "https://github.com/JJJ62/GoogleCloud-FinalPrject",
   },
   {
     // Add image in './styles/images.css' in #project4
     id: "project4",
-    name: "Project 4",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #project5
-    id: "project5",
-    name: "Project 5",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #project6
-    id: "project6",
-    name: "Project 6",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
-  },
+    name: "Maze Game in C, Data Structures",
+    skills: ["C"],
+    url: "https://github.com/JJJ62/Maze-Game-261-Final-group-",
+  }
 ];
 // Edit your Miscellaneous Activities, its name and the url.
 // You can omit freely anything if you dont have it
 // To Add a Activity, copy any one below and paste it after the last comma and increment the id's Miscellaneous number
-const section4Title = "Miscellaneous";
-const miscellaneous = [
-  {
-    // Add image in './styles/images.css' in #misc1
-    id: "misc1",
-    name: "Miscellaneous 1",
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #misc2
-    id: "misc2",
-    name: "Miscellaneous 2",
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #misc3
-    id: "misc3",
-    name: "Miscellaneous 3",
-    url: "https://github.com/kaustubhai",
-  },
-];
+// const section4Title = "Miscellaneous";
+// const miscellaneous = [
+//   {
+//     // Add image in './styles/images.css' in #misc1
+//     id: "misc1",
+//     name: "Miscellaneous 1",
+//     url: "https://github.com/kaustubhai",
+//   },
+//   {
+//     // Add image in './styles/images.css' in #misc2
+//     id: "misc2",
+//     name: "Miscellaneous 2",
+//     url: "https://github.com/kaustubhai",
+//   },
+//   {
+//     // Add image in './styles/images.css' in #misc3
+//     id: "misc3",
+//     name: "Miscellaneous 3",
+//     url: "https://github.com/kaustubhai",
+//   },
+// ];
 // Contact form text, and Jotforms link
 // To get your own jotform link, go to https://www.jotform.com/
 // If you hacve the link already, paste it in the contactUrl below
 const section5Title = "Get in Touch";
 const contact = {
   pitch:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
-  copyright: "Kaustubh Mishra",
+    "",
+  copyright: "Jawad Alamgir",
   contactUrl: "",
 };
 // Paste your respective social media links. You can omit any if you dont have it
 // Upload your resume in your drive, get the shaareable link and paste it in the resume section
 const social = {
-  github: "https://github.com",
-  facebook: "https://facebook.com",
-  linkedin: "https://linkedin.com",
-  instagram: "https://instagram.com",
+  github: "https://github.com/JJJ62/",
+  linkedin: "https://www.linkedin.com/in/jalamgir62/",
   resume: "https://novoresume.com/",
 };
 // Dont change anything here
@@ -161,11 +149,9 @@ export {
   about,
   skillsBar,
   projects,
-  miscellaneous,
   contact,
   social,
   section2title,
   section3Title,
-  section4Title,
   section5Title,
 };
