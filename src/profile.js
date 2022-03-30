@@ -130,7 +130,7 @@ const projects = [
 const section5Title = "Get in Touch";
 const contact = {
   pitch:
-    "",
+    "DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.",
   copyright: "Jawad Alamgir",
   contactUrl: "",
 };
@@ -139,7 +139,7 @@ const contact = {
 const social = {
   github: "https://github.com/JJJ62/",
   linkedin: "https://www.linkedin.com/in/jalamgir62/",
-  resume: "https://novoresume.com/",
+  resume: "https://github.com/JJJ62/ResumePortfolio/blob/master/Jawad_Alamgir_Resume.pdf",
 };
 // Dont change anything here
 export {
